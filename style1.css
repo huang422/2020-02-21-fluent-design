@@ -1,0 +1,641 @@
+body {
+  margin: 0;
+}
+
+main {
+  overflow: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo1 {
+  height: 20px;
+  width: 20px;
+  fill: white;
+}
+
+.logo1:hover .microsoft-red {
+  fill: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logo1:hover .microsoft-green {
+  fill: green;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logo1:hover .microsoft-blue {
+  fill: blue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logo1:hover .microsoft-yellow {
+  fill: yellow;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar .container {
+  max-width: 90%;
+}
+
+.navbar .container .navgation .collapse ul li a {
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-toggler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(255, 255, 255, 0.425);
+}
+
+#title1 {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#title1:hover {
+  color: #0051ff;
+}
+
+#web:hover {
+  color: #3a8ece;
+}
+
+#windows:hover {
+  color: #5ef0f5;
+}
+
+#ios:hover {
+  color: plum;
+}
+
+#android:hover {
+  color: lightgreen;
+}
+
+.fluent {
+  background-color: black;
+}
+
+.fluent .row .container {
+  max-width: 90%;
+  position: relative;
+}
+
+.fluent .row .container .line1 {
+  position: absolute;
+  left: 50%;
+  bottom: 150px;
+}
+
+.fluent .row .container .line2 {
+  position: absolute;
+  right: 3%;
+  top: 110px;
+}
+
+.fluent .row .container .content-text .text-L {
+  padding: 50px 0;
+}
+
+.fluent .row .container .content-text .text-S {
+  padding: 50px 0;
+}
+
+.fluent .row .container .content-img {
+  padding: 30px 0;
+}
+
+.fluent .row .container .content-img img {
+  max-width: 100%;
+  padding-left: calc(50% - 177px);
+}
+
+.box4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box4 .container1 {
+  width: 100%;
+}
+
+.box4 .container1 .row .hvr-fade {
+  height: 344px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.box4 .container1 .row .hvr-fade a {
+  color: black;
+  text-decoration: none;
+}
+
+.box4 .container1 .row .hvr-fade:nth-child(1) {
+  background-color: #3a8ece;
+}
+
+.box4 .container1 .row .hvr-fade:nth-child(1):hover, .box4 .container1 .row .hvr-fade:nth-child(1):focus, .box4 .container1 .row .hvr-fade:nth-child(1):active {
+  background-color: #3a7ace;
+}
+
+.box4 .container1 .row .hvr-fade:nth-child(2) {
+  background-color: #5ef0f5;
+}
+
+.box4 .container1 .row .hvr-fade:nth-child(2):hover, .box4 .container1 .row .hvr-fade:nth-child(2):focus, .box4 .container1 .row .hvr-fade:nth-child(2):active {
+  background-color: #5edcf5;
+}
+
+.box4 .container1 .row .hvr-fade:nth-child(3) {
+  background-color: plum;
+}
+
+.box4 .container1 .row .hvr-fade:nth-child(3):hover, .box4 .container1 .row .hvr-fade:nth-child(3):focus, .box4 .container1 .row .hvr-fade:nth-child(3):active {
+  background-color: #dd82dd;
+}
+
+.box4 .container1 .row .hvr-fade:nth-child(4) {
+  background-color: lightgreen;
+}
+
+.box4 .container1 .row .hvr-fade:nth-child(4):hover, .box4 .container1 .row .hvr-fade:nth-child(4):focus, .box4 .container1 .row .hvr-fade:nth-child(4):active {
+  background-color: #90da90;
+}
+
+.box4 .container1 .row .hvr-fade:hover, .box4 .container1 .row .hvr-fade:focus, .box4 .container1 .row .hvr-fade:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box4 .box-empty-blue {
+  width: 7%;
+  height: 344px;
+  background-color: #2280c8;
+}
+
+.box4 .box-empty-green {
+  width: 7%;
+  height: 344px;
+  background-color: #5fcf63;
+}
+
+.natural {
+  width: 100%;
+  height: 656px;
+  background-image: url("https://www.microsoft.com/design/fluent/assets/images/msft-verge-fluent.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.natural .container {
+  max-width: 90%;
+}
+
+.natural .container .content {
+  width: 30%;
+}
+
+.ball-area {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 30px 0;
+  position: relative;
+}
+
+.ball-area .shape1 {
+  position: absolute;
+  top: -205px;
+  right: 10%;
+}
+
+.ball-area .line {
+  position: absolute;
+  bottom: 100px;
+  left: 300px;
+}
+
+.ball-area .container {
+  max-width: 90%;
+}
+
+.ball-area .container .ball {
+  width: 100%;
+}
+
+.ball-area .container .ball img {
+  width: 50%;
+  height: 50%;
+}
+
+.ball-area .container .content-all {
+  width: 100%;
+}
+
+.ball-area .container .ball-content {
+  width: 40%;
+  color: white;
+}
+
+.ice-area {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+}
+
+.ice-area .line {
+  position: absolute;
+  z-index: 1;
+  right: -10%;
+  bottom: -30%;
+}
+
+.ice-area .shape-black {
+  position: absolute;
+  z-index: 1;
+  right: -10%;
+  bottom: -30%;
+}
+
+.ice-area .ice-content {
+  color: black;
+  position: absolute;
+  z-index: 1;
+  left: 7%;
+  bottom: 10%;
+}
+
+.sky {
+  width: 100%;
+  padding-bottom: 10%;
+  background-image: url("https://www.microsoft.com/design/fluent/assets/images/clouds.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 10px;
+}
+
+.sky .container {
+  max-width: 90%;
+}
+
+.sky .container .sky-content h2 {
+  font-size: 250px;
+}
+
+.sky .container .line {
+  padding-left: 30%;
+}
+
+.engaging {
+  background-color: gainsboro;
+  padding-bottom: 15%;
+  position: relative;
+}
+
+.engaging .container {
+  max-width: 90%;
+}
+
+.engaging .container .engage-content {
+  width: 40%;
+}
+
+.engaging .engage-img {
+  width: 60%;
+  position: absolute;
+  right: 0px;
+  top: 15%;
+}
+
+.engaging .engage-img img {
+  max-width: 120%;
+}
+
+.starsky {
+  height: 668px;
+  background-image: url("https://www.microsoft.com/design/fluent/assets/images/space.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.starsky .shape1 {
+  position: absolute;
+  top: 100px;
+  right: 10%;
+}
+
+.starsky .line {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.starsky .shape-f {
+  position: absolute;
+  top: -75px;
+  left: calc(50% - 165px);
+}
+
+.starsky .shape-pink {
+  position: absolute;
+  bottom: 10px;
+  right: 25%;
+  z-index: 1;
+}
+
+.starsky .shape2 {
+  position: absolute;
+  bottom: 50px;
+  right: 15%;
+}
+
+.box4-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box4-2 .container1 {
+  width: 100%;
+}
+
+.box4-2 .container1 .row .hvr-fade {
+  height: 344px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.box4-2 .container1 .row .hvr-fade a {
+  color: white;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box4-2 .container1 .row .hvr-fade a:hover, .box4-2 .container1 .row .hvr-fade a:focus, .box4-2 .container1 .row .hvr-fade a:active {
+  color: black;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(1) {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(1) .icon {
+  fill: white;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(1):hover, .box4-2 .container1 .row .hvr-fade:nth-child(1):focus, .box4-2 .container1 .row .hvr-fade:nth-child(1):active {
+  background-color: white;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(1):hover .icon, .box4-2 .container1 .row .hvr-fade:nth-child(1):focus .icon, .box4-2 .container1 .row .hvr-fade:nth-child(1):active .icon {
+  fill: black;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(2) {
+  background-color: gray;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(2) .icon {
+  fill: white;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(2):hover, .box4-2 .container1 .row .hvr-fade:nth-child(2):focus, .box4-2 .container1 .row .hvr-fade:nth-child(2):active {
+  background-color: white;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(2):hover .icon, .box4-2 .container1 .row .hvr-fade:nth-child(2):focus .icon, .box4-2 .container1 .row .hvr-fade:nth-child(2):active .icon {
+  fill: black;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(3) {
+  background-color: darkgray;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(3):hover, .box4-2 .container1 .row .hvr-fade:nth-child(3):focus, .box4-2 .container1 .row .hvr-fade:nth-child(3):active {
+  background-color: white;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(4) {
+  background-color: gainsboro;
+}
+
+.box4-2 .container1 .row .hvr-fade:nth-child(4):hover, .box4-2 .container1 .row .hvr-fade:nth-child(4):focus, .box4-2 .container1 .row .hvr-fade:nth-child(4):active {
+  background-color: white;
+}
+
+.box4-2 .box-empty-blue {
+  width: 7%;
+  height: 344px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.box4-2 .box-empty-green {
+  width: 7%;
+  height: 344px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.open {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 100px 0;
+  color: white;
+}
+
+.open .container {
+  max-width: 90%;
+}
+
+.open .container .open-box .icon a {
+  color: white;
+  text-decoration: none;
+  fill: white;
+}
+
+.open .container .open-box .icon a:hover {
+  color: rgba(255, 255, 255, 0.562);
+  fill: rgba(255, 255, 255, 0.562);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer .container {
+  max-width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .container .logo {
+  padding: 10px 0;
+}
+
+.footer .container .footer-box {
+  padding: 10px 0;
+}
+
+.footer .container .footer-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .container .footer-box ul li {
+  list-style: none;
+}
+
+.footer .container .footer-box ul li a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer .container .footer-box ul li a:hover {
+  color: rgba(255, 255, 255, 0.562);
+}
+
+.footer .container .footer-logo {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container .footer-logo a {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  fill: white;
+}
+
+.footer .container .footer-logo a:hover .linkedin {
+  fill: royalblue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer .container .footer-logo a:hover .dribbble {
+  fill: magenta;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer .container .footer-logo a:hover .twitter {
+  fill: royalblue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer .container .footer-logo a:hover .medium {
+  fill: green;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer .container .footer-logo a:hover .facebook {
+  fill: steelblue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hvr-underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.562);
+  height: 2px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(-3px);
+}
+/*# sourceMappingURL=style1.css.map */
